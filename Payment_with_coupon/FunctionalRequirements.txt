@@ -1,0 +1,9 @@
+-- Design a Payment system that has coupon implimentations --
+
+1. User should be able to pay using different payment method like card,upi etc
+2. User should be able to apply coupon
+3. System should offer both flat/percentage coupons
+4. System should be able to calculate the final price user need to pay
+5. Inorder to follow the OOPs principle system should be following SOLID principle S and O 
+6. Design pattern used for this system are Strategy for payment method and decorator for coupons 
+7. At last system should be able to return Transaction success
