@@ -4,6 +4,9 @@ public class Order {
     private String orderID;
     private String userID;
     private double baseAmount;
+    public Order(String string, String string2, double d) {
+        //TODO Auto-generated constructor stub
+    }
     public double getBaseAmount() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getBaseAmount'");
