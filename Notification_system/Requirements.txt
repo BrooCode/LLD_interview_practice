@@ -1,0 +1,8 @@
+--- Notification System ---
+
+1. System should be able to send the notications
+2. There should be category of notification (promotional,transactional,otp,...)
+3. The system should follow SOLID and oops concept 
+4. Multi channel delivery (email,SMS,Push Notification)
+5. define priority of the notification
+6. user preferance to receive the notification
