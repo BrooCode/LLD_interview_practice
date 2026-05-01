@@ -1,0 +1,13 @@
+-- Car sharing LLD --
+
+1. There will be 2 account user and driver
+2. Car owner should be able to register there car
+3. One car can have at most 3 passengers (making the use case small for simplicity)
+4. User can raise a request from his/her location to some destination
+5. Driver can accept or decline the request / User can reject the driver as well 
+5. Billing based on KM / base fare will be fixed by the driver(above this fare based on KM will be added)
+
+
+Design pattern used :
+1.Strategy pattern - Driver matching algo if it is price based / rating based so on so that we will not have to change the existing code and can add more algo to it 
+2.Observer Pattern - For notification
